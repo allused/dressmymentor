@@ -1,0 +1,39 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <div id="clothes">
+        <div id="clotheswrapper"><div></div>
+        <div id="clothes_section"></div>
+        </div>
+    </div>
+    <div>
+        <canvas >
+        </canvas>
+
+        <div id="flex">FLEX</div>
+    </div>
+    <div id="side">
+        <div id="categories">
+            <div></div>
+            <div id="topB" class="categoryB" name="{{ session['tops'] }}">Tops</div>
+            <div id="botB" class="categoryB" name="{{ session['bottoms'] }}">Bottoms</div>
+            <div></div>
+            <div></div>
+            <div id="dressB" class="categoryB" name="{{ session['dresses'] }}">Dresses</div>
+            <div id="accessoriesB" class="categoryB" name="{{ session['accessories'] }}">Accessories</div>
+            <div></div>
+        </div>
+        <div id="backgroundHolder" name="{{ session['bgs'] }}">
+            <div></div>
+            <div id="prevBg" class="bgchange"><div></div><span class="glyphicon glyphicon-chevron-left"></span></div>
+            <div id="nextBg" class="bgchange"><div></div><span class="glyphicon glyphicon-chevron-right"></span></div>
+        </div>
+        <div id="music_player">
+            <audio controls autoplay="true" loop="true">
+                <source src="/static/style/background_music.ogg" type="audio/ogg">
+                <source src="/static/style/background_music.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+
+
+{% endblock %}

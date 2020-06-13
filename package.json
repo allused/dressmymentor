@@ -1,0 +1,19 @@
+{
+  "name": "dressup",
+  "version": "1.0.0",
+  "description": "petproject",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomporino/webpet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomporino/webpet/issues"
+  },
+  "homepage": "https://github.com/Tomporino/webpet#readme"
+}

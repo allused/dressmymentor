@@ -1,0 +1,179 @@
+span {
+    font-size: 50px;
+}
+
+#content_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#categories {
+    margin-top: 25px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.categoryB {
+    background: pink;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid lightpink;
+    border-radius: 10px;
+    
+}
+
+.categoryB:hover {
+    cursor: pointer;
+    background: deeppink;
+    color: white;
+
+}
+
+.red {
+    background-color: darkred;
+}
+
+.blue {
+    background-color: lightgreen;
+}
+.pre{
+    display: none;
+}
+
+canvas {
+    width: 560px;
+    height: 750px;
+
+}
+
+/*#clotheswrapper {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 10fr 1fr;*/
+/*}*/
+
+/*#clothes {*/
+/*    display: grid;*/
+/*    grid-template-rows: 10% 70% 20%;*/
+/*}*/
+
+#backgroundHolder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.bgchange {
+    background: pink;
+    text-align: center;
+    vertical-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid lightpink;
+    border-radius: 10px;
+}
+
+.bgchange:hover {
+    cursor: pointer;
+    background: deeppink;
+    color: white;
+}
+
+#accBs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    padding: 10px;
+}
+
+.accB {
+    background: pink;
+    text-align: center;
+    border: 1px solid lightpink;
+    border-radius: 10px;
+}
+
+.accB:hover {
+    cursor: pointer;
+    background: deeppink;
+    color: white;
+}
+
+#clothes_section {
+    padding: 10px;
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    /*grid-column-gap: 10px;*/
+    text-align: center;
+    background: deeppink;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#slot {
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: pink;
+}
+
+#flex {
+    font-weight: 900;
+    font-size: 40px;
+    font-family: DejaVu Math TeX Gyre, fantasy;
+    border: 1px solid lightpink;
+    border-radius: 2px;
+    text-align: center;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+#flex:hover {
+    cursor: pointer;
+    background: deeppink;
+    color: white;
+
+}
+
+#side {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#music_player {
+    text-align: center;
+}
+
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #006773;
+/*-webkit-box-shadow:  2px 2px 4px 0px #006773;*/
+/*box-shadow: 2px 2px 4px 0px #006773;*/
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+
+audio:hover, audio:focus, audio:active
+{
+/*-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);*/
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+/*box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);*/
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
